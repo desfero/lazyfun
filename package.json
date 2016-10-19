@@ -1,0 +1,15 @@
+{
+  "name": "lazyfun",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": "",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "mocha": "~1.21.x"
+  }
+}
