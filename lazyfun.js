@@ -34,7 +34,7 @@
           invoke();
         }, milliseconds);
       } else {
-        invoke()
+        invoke();
       }
     }
 
