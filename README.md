@@ -22,7 +22,7 @@ bower install lazyfun
 
 Basic usage:
 
-```
+```javascript
 import lazyfun from 'lazyfun';
 
 function getData() {
