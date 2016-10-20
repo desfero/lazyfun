@@ -1,10 +1,46 @@
-# lazyfun
+# LazyFun
 
-version: 0.0.0
+Invoke passed function in 3 different modes: lazy, deferred, immediate.
 
+## Getting Started
 
+### Installing
+
+Install lazyfun by npm
+
+```
+npm install lazyfun
+```
+
+or by bower
+
+```
+bower install lazyfun
+```
+
+### Usage
+
+Basic usage:
+
+```
+import lazyfun from 'lazyfun';
+
+function getData() {
+  console.log('foo');
+}
+
+const lazyGetData = lazyfun(getData)
+
+lazyGetData(); // log: 'foo'
+
+```
+
+## Running the tests
+
+```
+npm test
+```
 
 ## License
 
-Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
-
+This project is licensed under the MIT License.
