@@ -1,6 +1,6 @@
 {
   "name": "lazyfun",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Invoke passed function in 3 different modes: lazy, deferred, immediate.",
   "scripts": {
     "test": "mocha test/*.js"
