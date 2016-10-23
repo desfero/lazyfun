@@ -1,6 +1,6 @@
 {
   "name": "lazyfun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Invoke passed function in 3 different modes: lazy, deferred, immediate.",
   "author": "Paweł Lula <pawel.lula@protonmail.com>",
   "scripts": {
