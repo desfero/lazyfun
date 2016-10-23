@@ -1,11 +1,33 @@
 {
   "name": "lazyfun",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Invoke passed function in 3 different modes: lazy, deferred, immediate.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/desfero/lazyfun"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "main": "lazyfun.js",
+  "homepage": "https://github.com/desfero/lazyfun",
+  "authors": [
+    "Paweł Lula <pawel.lula@protonmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "lazyfun",
+    "lazy function",
+    "deferred function"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
-
